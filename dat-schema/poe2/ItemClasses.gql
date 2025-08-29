@@ -1,7 +1,6 @@
 type ItemClasses @tags(list: ["crafting"]) {
   Id: string @unique
   Name: string
-  TradeMarketCategory: TradeMarketCategory
   ItemClassCategory: ItemClassCategories
   RemovedIfLeavesArea: bool
   _: [_] # All rows empty
