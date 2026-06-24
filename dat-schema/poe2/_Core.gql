@@ -2402,14 +2402,14 @@ type Expedition2Runes {
 # Added 0.5
 type Expedition2RunesWeights {
   Id: string
-  _: i32
-  _: i32
+  RecipeRuneCount: i32
+  HighlightedRuneSlot: i32
   HighlightedRune: Expedition2Runes
   MinAreaLevel: i32
   MaxAreaLevel: i32
   _: i32
-  _: string
-  _: bool
+  TableComments: string
+  _: bool # possibly GrandExpeditionExclusive
   _: i32
 }
 
