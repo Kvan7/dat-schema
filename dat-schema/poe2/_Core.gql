@@ -2369,8 +2369,7 @@ type Expedition2Recipes {
   _: string
   _: bool
   _: i32
-  _: bool
-  _: i32
+  RewardGemLevel: i32
   QuestFlag: QuestFlags
   Category: ExpeditionCategory
   RuneWeights: [Expedition2RunesWeights]
