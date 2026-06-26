@@ -2386,14 +2386,14 @@ type Expedition2RemnantRewardPerArea {
 }
 
 # Added 0.5
-type expedition2runes {
+type Expedition2Runes {
   Id: string
   _: rid # All rows empty
   ArchnemesisMod: ArchnemesisMods
   ArchnemesisModPower: ArchnemesisMods
   TomeArt: string
   RemnantArt: string
-  ModType: Mods
+  EnemyMods: Mods
   EnemyArt: string
   TomeArt2: string
 }
