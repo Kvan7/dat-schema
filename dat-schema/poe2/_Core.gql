@@ -2392,7 +2392,7 @@ type Expedition2Runes {
   ArchnemesisModPower: ArchnemesisMods
   TomeArt: string
   RemnantArt: string
-  EnemyMods: Mods
+  Mod: Mods
   EnemyArt: string
   TomeArt2: string
 }
